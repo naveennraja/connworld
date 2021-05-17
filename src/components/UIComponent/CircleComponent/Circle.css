@@ -1,0 +1,17 @@
+.circle {
+  border-radius: 50%;
+  /* border: 1px solid rgb(35, 112, 209); */
+  padding: 6em;
+  margin: 1em auto;
+  max-height: 20em;
+  display: inline-block;
+  box-shadow: 2px 11px 14px -7px rgb(35 112 209 / 65%);
+  -webkit-box-shadow: 2px 11px 14px -7px rgb(35 112 209 / 65%);
+  -moz-box-shadow: 2px 11px 14px -7px rgb(35 112 209 / 65%);
+}
+.circle .smallText {
+  white-space: pre-line;
+  width: 125px;
+  word-break: break-word;
+  display: block;
+}

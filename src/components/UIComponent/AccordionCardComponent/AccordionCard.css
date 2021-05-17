@@ -1,0 +1,39 @@
+#accordion .card .card-header {
+  background: linear-gradient(to bottom, #0d4da1 5%, #3d97f2 100%);
+}
+#accordion .card-header h5 .btn-link:focus,
+#accordion .card-header h5 .btn-link:hover {
+  color: #f7a08d;
+  text-decoration: none;
+}
+#accordion .card-header h5 .btn-link {
+  position: relative;
+  color: #fff;
+}
+
+#accordion .card-header h5 .btn-link::after {
+  content: '\02C7';
+  font-size: 2rem;
+  right: 0px;
+  position: absolute;
+  margin: 0 0.5rem;
+}
+#accordion .card-header h5 .btn-link[aria-expanded='true']::after {
+  content: '\02C6';
+}
+
+/*
+ * Added 12-27-20 to showcase full title clickthrough
+ */
+
+.panel-heading-full.panel-heading {
+  padding: 0;
+}
+.panel-heading-full .panel-title {
+  padding: 10px 15px;
+}
+
+.panel-heading-full .panel-title::after {
+  top: 10px;
+  right: 15px;
+}

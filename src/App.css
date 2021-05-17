@@ -1,0 +1,45 @@
+body {
+  font-family: 'Spectral', serif;
+  height: 100vh;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.logo {
+  width: 12rem;
+}
+.jumbotron {
+  background: white;
+}
+.altered-background {
+  background-image: linear-gradient(white, #fff 75%, #e3e7eb) !important;
+  border-radius: 0;
+}
+.altered-background .navbar-nav .nav-item .nav-link:hover {
+  color: #0d4ea1;
+}
+.heading-background {
+  height: 50vh;
+}
+.text-primary {
+  color: #0d4ea1;
+}
+.btn-secondary {
+  background: #f04822 !important;
+  color: #fff;
+}
+.text-secondary {
+  color: #f04822 !important;
+}
+.design-container > div {
+  box-shadow: inset 0px 0px 0px 0px #bbdaf7;
+  background: linear-gradient(to bottom, #0d4da1 5%, #3d97f2 100%);
+  background-color: #0d4da1;
+  /* border-radius: 50%; */
+  border: 1px solid #3d97f2;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 3rem 0;
+}
+/*  */

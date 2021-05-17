@@ -1,0 +1,19 @@
+.solution-container .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  width: 320px;
+}
+.solution-container .card .top-container {
+  background: linear-gradient(to bottom, #0d4da1 5%, #3d97f2 100%);
+  color: #fff;
+}
+
+.solution-container .card .bottom-container {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.slide,
+.galleryImage,
+.slider,
+.slider-wrapper,
+.carousel-slider,
+.carousel-root {
+  height: 100%;
+}
+.galleryImage {
+  /* background-size: cover */
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}

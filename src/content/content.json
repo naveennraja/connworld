@@ -1,0 +1,92 @@
+{
+  "contents": {
+    "homepage": {
+      "contentText": "<p>We are committed to partnering with our Customers and Suppliers to ensure we deliver value perpetually. We hope to see you among them.  We are Specialists in manufacturing CNC Milling Components and Assemblies. At ConnWorld, we machine Ferrous &amp; Non-Ferrous material like Aluminum Alloy, Stainless Steel and many other Alloys.  Machining medium to critical tolerances up to 10 microns (0.01 mm).</p><h3>Vision</h3><p>Connect, Protect, Explore and Inspire the world by providing manufacturing solutions and services through the deployment of technology and innovation in a socially responsible manner.</p><h3>Mission</h3><ul><li>Profitable growth through superior customer service, innovation, quality and commitment.</li><li>Build a culture of excellence by efficient and safe execution of all our projects.</li><li>Foster a culture of trust, collaboration and performance to achieve our business goals and be a partner of choice.</li><li>Be a responsible citizen and uphold the highest standards of governance, ethics and integrity.</li></ul><h3>Quality Policy</h3><p>At ConnWorld, quality is an integral part of our mission and these guide our actions to ensure that we deliver the quality products meeting the statutory and regulatory standards to satisfy our customer requirements.</p>",
+      "coreValues": {
+        "Integrity": "fas fa-balance-scale",
+        "Mutual Respect": "far fa-handshake",
+        "Accountability": "fas fa-user-tie",
+        "Creativity and Innovation": "fab fa-connectdevelop",
+        "Care for Society and Environment": "fas fa-hand-holding-heart"
+      }
+    },
+    "capabilities": {
+      "title": "Machining Capability",
+      "contentText": "<p>Our strength is in creating prototypes, jigs fixtures and in manufacturing both small-run and mass production of parts and components for various Industries. Our machine enables us to deliver with unparalleled speed, efficient, accurate and precision components ranging from medium to critical tolerances. We are a dedicated and hardworking team committed to producing the very best manufacturing components.</p>",
+      "tableHeading": "Machine Specification",
+      "table": "<table className='table table-hover my-4'><thead><tr><th scope='col'>Machine Type</th><th scope='col'>Make</th><th scope='col'>Model</th><th scope='col'>Axis</th><th scope='col'>Control System</th><th scope='col'>Travel in mm</th><th scope='col'>RPM</th><th scope='col'>Tool Magazine</th></tr></thead><tbody><tr><th scope='row'>VMC</th><td>B F W</td><td>BMV50TC24</td><td>3</td><td>MITSUBISHI</td><td>800 X 510 X 510</td><td>8000</td><td>24</td></tr><tr><th scope='row'>VMC</th><td>B F W</td><td>BMV50TC24</td><td>3</td><td>MITSUBISHI</td><td>800 X 510 X 510</td><td>10000</td><td>24</td></tr></tbody></table><p>Based on Customer Confirmed Orders and Long Term agreement, ConnWorld is open for investment on new Machineries.</p>"
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "contentText": " <p>Geographically Our 3,000 sq. ft. facility is situated at KIADB Industrial Area,Doddaballapur is an industrially developed area of Bangalore RuralDistrict in Karnataka. Geographically situated in a very convenient area just 30 Kms. i.e onehour drive from Bangalore.The international airport of Bangalore is just 25 Kms away from ourfacility.</p>"
+    },
+    "quality": {
+      "title": "Quality",
+      "contentText": "<p>Quality is the backbone of everything we do in order to support the various industries we cater to. Our moto is to exceed the expectation of our customers by supplying superior quality, honesty and integrity in every complex manufactured component and assembly we deliver and to align with those customers and suppliers that have a like-minded commitment to excellence.Our Quality lab is equipped with Height gauge, Digital Micrometer, Digital Vernier, Surface Comparator, Feelers Gauge and other standard measurement equipment and all are calibrated according to ISO 9001 recommended schedule.</p>"
+    },
+    "services": {
+      "title": "Design and Engineering Services",
+      "contentText": "<p>We create relationships that make sense and generate lasting value. There’s a lot of one-size-fits-all out there — whether it's scope, pricing, pace, package or terms.We are a Sourcing hub of Tailor-made parts and high precision components. We follow a well-defined strategy and a meticulous plan to identify the right set of vendors and develop them to become your manufacturing partners. Be it be a new product development, prototyping, production, after-sales or end of life sourcing needs, our team of experts and qualified vendors are always willing to go that extra mile and deliver the right part at the right price and right time.</p><p>We handle all stages of Sourcing from Supplier Scouting, RFQ Management, Including Engineering Support, Quality Controls and Full Logistic Service to provide an integrated solution to our customers.  We bring to the table local market knowledge and global expertise to your supply chain as an extension to Sourcing.</p>",
+      "cards": {
+        "Oppurtunity Assesment": [
+          "Kick off meeting with Customer",
+          "Requirement Gathering",
+          "Functional Alignment"
+        ],
+        "Supplier Scouting and RFQ Management": [
+          "NDA",
+          "RFQ Preparation",
+          "Drawing Review",
+          "RFQ Management",
+          "Supplier Evaluation Audit",
+          "Shortlist Suppliers"
+        ],
+        "Project Award": ["MOU / SA", "Supplier Award", "First Article PO"],
+        "Development Plan": [
+          "Manufacturing &  Inspection Feasibility Review",
+          "Packaging Plan",
+          "Logistics"
+        ],
+        "Qualification": [
+          "Drawings",
+          "Golden Samples",
+          "FA Inspection by SQE",
+          "FA Approval by Customer"
+        ],
+        "Serial Production and Logistics Management": [
+          "Production PO",
+          "Process audits",
+          "Inspection",
+          "Supply Chain & Logistics Management"
+        ]
+      },
+      "cardsIcon": [
+        "fas fa-tasks",
+        "fas fa-bezier-curve",
+        "fas fa-file-signature",
+        "fas fa-project-diagram",
+        "fas fa-certificate",
+        "fab fa-whmcs"
+      ],
+      "contentTextServices": "<p>Our vendor ecosystem is equipped to manufacture parts from different Raw material types such as Aluminum Alloy, Iron, Stainless Steel, Brass, Bronze, Teflon and so on.</p><h3>Our core competence in Contract Manufacturing includes</h3><ul><li>Supply of high precision components, Specialization in machining, casting, forging and sheet metal.</li><li>Tooling/fixture design and manufacturing.</li><li>Specialized surface treatment or coatings such as electroless nickel plating, anodizing, hard anodizing etc.</li><li>Hardening processes such as induction hardening, case hardening, nitriding, vacuum hardening etc.</li></ul><p>Sourcing is incomplete without a robust Supply Chain Management. We have devised effective Logistics processes which help us to provide our customer with cost effective and timely deliveries. This also includes effective packaging and delivery solutions to meet our customer’s specialized requirements. We have tie-ups with reputed international freight forwarders and 3PL partners for hassle free delivery of components to our customers. We deliver parts to our customer’s on-time at their door-steps; this has helped us to align with the Just-in-time procurement strategy of our customers.</p><h4>Benefits</h4><ul><li>Highly skilled engineers with solid domain experience.</li><li>Well established supplier.</li><li>High precision measuring instruments and machines.</li><li>Experience managing Global Logistics especially to North America and European region.</li><li>Stringent quality assurance.</li></ul><h4>Design and Engineering Services</h4><p>We conduct frequent audit at our vendors facility to ensure compliance to our manufacturing standards including safety norms. We ensure the quality of parts delivered by the vendors throughout the project duration. We follow standard manufacturing process and assist the vendors to deliver the parts with required quality.</p>",
+      "qualityService": {
+        "On-Site Inspection": "Samples are checked against a detailed inspection plan for appearance, applicable functionality, packaging integrity, workmanship, and your specific requirements. Discovered defects are classified as major, minor, or critical depending on inspection plans. If you have your QC standard and procedure, we have no concern to follow your documentation.",
+        "Quality Documentation": "Quality inspection service reports and results with digital photos will be emailed to you within 24 hours of the service through our secure online database so that you can quickly authorize your suppliers to ship your products.",
+        "Non-Conformance Management": "Submission of monthly Quality Reports highlighting various Quality issues observed during Inspections, analysis and proposing improvements.",
+        "Process Audit": "In our experience, the quality performance of a good factory varies by production lines due to multiple factors such as people, equipment, materials, methods, production environment and a plethora of other factors. ConnWorld Process Audit focuses on assessing the specific production line that is or will be producing your product. The assessment will assess the quality practice of a product from incoming material, through to every single stage of the production process, including material handling, in-process quality control activities, outgoing QA and warehousing.",
+        "Supplier Development": "Supplier Development is an investment of time and effort by an organization to develop or grow their suppliers over time to reach and maintain the required level of quality, on-time delivery and responsiveness.  Proper supplier development can improve a supplier’s capability and technical knowledge, reduce cost and promote a mutually beneficial culture of collaboration and continuous improvement.",
+        "Technical Trainings": "The training programmes by ConnWorld is a sincere effort towards the knowledge upgradation and skill development of your Engineers. Since Learning & Development is very crucial for industries to enhance competitiveness in manufacturing, we empower the industry professionals and fresh engineers with the latest technological developments through various training sessions and workshops.",
+        "Supplier Evaluation Audits": "The Initial Supplier Evaluation audit is designed and tailored to help our Customers conduct a rapid but comprehensive one day assessment of any factory’s Manufacturing competency, quality assurance standards etc. The assessment result provides Customers with all necessary information to make the final decision on Business Award/Supplier Onboarding. Our auditors perform an on-site survey of the factory. The resulting report details their general operations, quality procedures, operator qualification and overall capability."
+      },
+      "contentTextDesign": "<h4>Design and Engineering Services</h4><p>A design is ineffective unless it can be transformed into a physical product. We offer a host of services in the product realization phase, which enables us to ensure that any innovative or aesthetically beautiful product is transformed into a form that is ready for manufacturing. Our flexible services are custom fit to your project and your budget, and we can handle projects of any complexity and scope. Our services includes</p><div class='container'><div class='row justify-content-center text-center design-container'><div class='col-lg-4 col-md-6 '>2D &amp; 3D Conversion</div><div class='col-lg-4 col-md-6'>Press Tool Design</div><div class='col-lg-4 col-md-6'>Jigs &amp; Fixture Design</div><div class='col-lg-4 col-md-6'>New Product Development</div><div class='col-lg-4 col-md-6'>Inject Mould Design</div></div></div><h4>Fast, reliable services improve your design efficiency</h4><p>By outsourcing your drafting needs, you free yourself up to focus more on the creative aspects of your design project. Put your valuable time and resources to best use and maximize your team's efficiency. Our experts are available when you need them, saving you the cost of keeping a drafting technician on staff, while allowing you and your team to focus on what you do best.</p>"
+    },
+    "careers": {
+      "title": "Careers",
+      "contentText": "<p>ConnWorld Engineerig, is an equal opportunity employer. If you are talented, dedicated professional with skills and you want to put them to a better use, if you are looking for a challenging new projects and the ability to work independently, then ConnWorld Engineering is the right place for you. Contact us and find out what we can offer you. In order to apply a job at ConnWorld Engineering, please send your resume to following email address</p><p><div> <strong><i class=' text-primary fas fa-envelope'></i> </strong>  djk@connworldengg.com</div><div><strong><i class='text-primary  fas fa-phone-alt mr-2'></i> </strong> +91 84310 43608</div></p>"
+    },
+    "whoweare": {
+      "title": "Who We Are",
+      "contentText": "<p>Team ConnWorld, we are a small group of young, thoughtful, committed team. We believe that with a good team of professionals, every milestone can be achieved to greater heights. We are a visionary organization driven by Values and Culture. Our focus is to provide exceptional services and solutions to ourcustomers by working closely with their Engineers. We are committed to the quality of our products and our aim is to continually improve allour processes.Our employees are passionate about what they do and they give their energy and focus to helping reach our company’s goals.</p><h3>Why choose us?</h3><ul className=' text-primary'><li>We are flexible and efficient in handling High mix low volume partsproviding solutions to every part</li><li>Our strength is in creating prototypes in less than 2 weeks</li><li>Market-oriented to support Customers in both Spike and Dip</li><li>Quality drives everything at ConnWorld</li><li>ConnWorld ensures Customer's expectations to product specification, delivery within agreed time with competitive pricing</li><li>Supply Chain and Logistics Support</li></ul>"
+    }
+  }
+}
