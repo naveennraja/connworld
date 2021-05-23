@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter as Router, Switch } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <Switch>
+        <App />
+      </Switch>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

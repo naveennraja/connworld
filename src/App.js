@@ -104,7 +104,7 @@ const App = () => {
         <div className='jumbotron container'>
           <Route
             exact
-            path='/'
+            path='/connworld'
             component={() => <Homepage contents={contents.homepage} />}
           />
           <Route
