@@ -41,6 +41,9 @@ const App = () => {
               <ul className='navbar-nav mr-auto'>
                 <li className='nav-item'>
                   <Link className='nav-link active' to='/'>
+                    {/* <Route exact path="/">
+                      <Redirect to="/home" />
+                    </Route> */}
                     <i className='fas fa-home mr-2'></i>
                     Home
                   </Link>
