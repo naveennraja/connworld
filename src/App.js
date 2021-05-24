@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './images/connworldLogo.png';
 import { Route, Link } from 'react-router-dom';
 import './bootstrap.min.css';
 import './App.css';
+import useFetch from './data/fetch';
 import Homepage from './pages/Homepage';
 import WhoweAre from './pages/WhoweAre';
 import Services from './pages/Services';
@@ -10,136 +11,144 @@ import Quality from './pages/Quality';
 import Infrastructure from './pages/Infrastructure';
 import Capabilities from './pages/Capabilities';
 import Contact from './pages/Contact';
-import { contents } from './content/content.json';
 import Gallery from './components/Gallery/Gallery';
 import Careers from './pages/Careers';
 import FooterComponent from './components/footer/FooterComponent';
 
 const App = () => {
-  console.log('contents----------------------------   ', contents);
-  return (
-    <div className='App '>
-      <>
-        <header className='App-header'>
-          <nav className='navbar navbar-expand-lg navbar-light bg-light altered-background'>
-            <Link className='navbar-brand logo' to='/'>
-              <h1>
-                <img src={logo} className='w-100' alt='logo' />
-              </h1>
-            </Link>
-            <button
-              className='navbar-toggler'
-              type='button'
-              data-toggle='collapse'
-              data-target='#navbarColor03'
-              aria-controls='navbarColor03'
-              aria-expanded='false'
-              aria-label='Toggle navigation'>
-              <span className='navbar-toggler-icon'></span>
-            </button>
+  const URL = '../content/content.json';
+  const contents = useFetch(URL);
 
-            <div className='collapse navbar-collapse' id='navbarColor03'>
-              <ul className='navbar-nav mr-auto'>
-                <li className='nav-item'>
-                  <Link className='nav-link active' to='/'>
-                    {/* <Route exact path="/">
+  console.log('Inside', contents);
+  if (contents !== null) {
+    return (
+      <div className='App '>
+        <>
+          <header className='App-header'>
+            <nav className='navbar navbar-expand-lg navbar-light bg-light altered-background'>
+              <Link className='navbar-brand logo' to='/'>
+                <h1>
+                  <img src={logo} className='w-100' alt='logo' />
+                </h1>
+              </Link>
+              <button
+                className='navbar-toggler'
+                type='button'
+                data-toggle='collapse'
+                data-target='#navbarColor03'
+                aria-controls='navbarColor03'
+                aria-expanded='false'
+                aria-label='Toggle navigation'>
+                <span className='navbar-toggler-icon'></span>
+              </button>
+
+              <div className='collapse navbar-collapse' id='navbarColor03'>
+                <ul className='navbar-nav mr-auto'>
+                  <li className='nav-item'>
+                    <Link className='nav-link active' to='/'>
+                      {/* <Route exact path="/">
                       <Redirect to="/home" />
                     </Route> */}
-                    <i className='fas fa-home mr-2'></i>
-                    Home
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link className='nav-link' to='/who-we-are'>
-                    <i className='fas fa-users mr-2'></i>
-                    Who We Are
-                  </Link>
-                </li>
-                <li className='nav-item dropdown'>
-                  <span
-                    className='nav-link dropdown-toggle'
-                    data-toggle='dropdown'
-                    href='#'
-                    role='button'
-                    aria-haspopup='true'
-                    aria-expanded='false'>
-                    <i className='fas fa-cogs mr-2'></i>
-                    We are Capable Of
-                  </span>
-                  <div className='dropdown-menu'>
-                    <Link className='dropdown-item' to='/infrastructure'>
-                      Infrastructure
+                      <i className='fas fa-home mr-2'></i>
+                      Home
                     </Link>
-                    <Link className='dropdown-item' to='/capabilities'>
-                      Capabilities
+                  </li>
+                  <li className='nav-item'>
+                    <Link className='nav-link' to='/who-we-are'>
+                      <i className='fas fa-users mr-2'></i>
+                      Who We Are
                     </Link>
-                    <Link className='dropdown-item' to='/quality'>
-                      Quality
+                  </li>
+                  <li className='nav-item dropdown'>
+                    <span
+                      className='nav-link dropdown-toggle'
+                      data-toggle='dropdown'
+                      href='#'
+                      role='button'
+                      aria-haspopup='true'
+                      aria-expanded='false'>
+                      <i className='fas fa-cogs mr-2'></i>
+                      We are Capable Of
+                    </span>
+                    <div className='dropdown-menu'>
+                      <Link className='dropdown-item' to='/infrastructure'>
+                        Infrastructure
+                      </Link>
+                      <Link className='dropdown-item' to='/capabilities'>
+                        Capabilities
+                      </Link>
+                      <Link className='dropdown-item' to='/quality'>
+                        Quality
+                      </Link>
+                      <div className='dropdown-divider'></div>
+                      <Link className='dropdown-item' to='/services'>
+                        Services
+                      </Link>
+                    </div>
+                  </li>
+                  <li className='nav-item'>
+                    <Link className='nav-link' to='/careers'>
+                      <i className='fas fa-user-tie mr-2'></i>
+                      Careers
                     </Link>
-                    <div className='dropdown-divider'></div>
-                    <Link className='dropdown-item' to='/services'>
-                      Services
+                  </li>
+                  <li className='nav-item'>
+                    <Link className='nav-link' to='/reach-us'>
+                      <i className='fas fa-map-marker-alt mr-2'></i>
+                      Reach Us
                     </Link>
-                  </div>
-                </li>
-                <li className='nav-item'>
-                  <Link className='nav-link' to='/careers'>
-                    <i className='fas fa-user-tie mr-2'></i>
-                    Careers
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link className='nav-link' to='/reach-us'>
-                    <i className='fas fa-map-marker-alt mr-2'></i>
-                    Reach Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-        <div className='heading-background'>
-          <Gallery></Gallery>
-        </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+          <div className='heading-background'>
+            <Gallery></Gallery>
+          </div>
 
-        <div className='jumbotron container'>
-          <Route
-            exact
-            path='/connworld'
-            component={() => <Homepage contents={contents.homepage} />}
-          />
-          <Route
-            path='/who-we-are'
-            component={() => <WhoweAre contents={contents.whoweare} />}
-          />
-          <Route
-            path='/services'
-            component={() => <Services contents={contents.services} />}
-          />
-          <Route
-            path='/quality'
-            component={() => <Quality contents={contents.quality} />}
-          />
-          <Route
-            path='/infrastructure'
-            component={() => (
-              <Infrastructure contents={contents.infrastructure} />
-            )}
-          />
-          <Route
-            path='/capabilities'
-            component={() => <Capabilities contents={contents.capabilities} />}
-          />
-          <Route
-            path='/careers'
-            component={() => <Careers contents={contents.careers} />}
-          />
-          <Route path='/reach-us' component={Contact} />
-        </div>
-      </>
-      <FooterComponent />
-    </div>
-  );
+          <div className='jumbotron container'>
+            <Route
+              exact
+              path='/connworld'
+              component={() => <Homepage contents={contents.homepage} />}
+            />
+            <Route
+              path='/who-we-are'
+              component={() => <WhoweAre contents={contents.whoweare} />}
+            />
+            <Route
+              path='/services'
+              component={() => <Services contents={contents.services} />}
+            />
+            <Route
+              path='/quality'
+              component={() => <Quality contents={contents.quality} />}
+            />
+            <Route
+              path='/infrastructure'
+              component={() => (
+                <Infrastructure contents={contents.infrastructure} />
+              )}
+            />
+            <Route
+              path='/capabilities'
+              component={() => (
+                <Capabilities contents={contents.capabilities} />
+              )}
+            />
+            <Route
+              path='/careers'
+              component={() => <Careers contents={contents.careers} />}
+            />
+            <Route path='/reach-us' component={Contact} />
+          </div>
+        </>
+        <FooterComponent />
+      </div>
+    );
+  } else {
+    return <h2>Loading</h2>;
+  }
 };
 
 export default App;
