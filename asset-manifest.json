@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/connworld/static/css/main.78cf2d86.chunk.css",
-    "main.js": "/connworld/static/js/main.b8567279.chunk.js",
-    "main.js.map": "/connworld/static/js/main.b8567279.chunk.js.map",
-    "runtime-main.js": "/connworld/static/js/runtime-main.20518309.js",
-    "runtime-main.js.map": "/connworld/static/js/runtime-main.20518309.js.map",
+    "main.js": "/connworld/static/js/main.b2c47ccd.chunk.js",
+    "main.js.map": "/connworld/static/js/main.b2c47ccd.chunk.js.map",
+    "runtime-main.js": "/connworld/static/js/runtime-main.51681cf5.js",
+    "runtime-main.js.map": "/connworld/static/js/runtime-main.51681cf5.js.map",
     "static/css/2.6b560088.chunk.css": "/connworld/static/css/2.6b560088.chunk.css",
-    "static/js/2.4e68b669.chunk.js": "/connworld/static/js/2.4e68b669.chunk.js",
-    "static/js/2.4e68b669.chunk.js.map": "/connworld/static/js/2.4e68b669.chunk.js.map",
-    "static/js/3.58aea587.chunk.js": "/connworld/static/js/3.58aea587.chunk.js",
-    "static/js/3.58aea587.chunk.js.map": "/connworld/static/js/3.58aea587.chunk.js.map",
+    "static/js/2.bc40feb4.chunk.js": "/connworld/static/js/2.bc40feb4.chunk.js",
+    "static/js/2.bc40feb4.chunk.js.map": "/connworld/static/js/2.bc40feb4.chunk.js.map",
+    "static/js/3.a7f2fba2.chunk.js": "/connworld/static/js/3.a7f2fba2.chunk.js",
+    "static/js/3.a7f2fba2.chunk.js.map": "/connworld/static/js/3.a7f2fba2.chunk.js.map",
     "index.html": "/connworld/index.html",
     "static/css/2.6b560088.chunk.css.map": "/connworld/static/css/2.6b560088.chunk.css.map",
     "static/css/main.78cf2d86.chunk.css.map": "/connworld/static/css/main.78cf2d86.chunk.css.map",
-    "static/js/2.4e68b669.chunk.js.LICENSE.txt": "/connworld/static/js/2.4e68b669.chunk.js.LICENSE.txt",
+    "static/js/2.bc40feb4.chunk.js.LICENSE.txt": "/connworld/static/js/2.bc40feb4.chunk.js.LICENSE.txt",
     "static/media/1.35d380ba.jpg": "/connworld/static/media/1.35d380ba.jpg",
     "static/media/2.622d6ffc.jpg": "/connworld/static/media/2.622d6ffc.jpg",
     "static/media/3.3212e932.jpg": "/connworld/static/media/3.3212e932.jpg",
@@ -26,10 +26,10 @@
     "static/media/quality.19082d01.jpeg": "/connworld/static/media/quality.19082d01.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20518309.js",
+    "static/js/runtime-main.51681cf5.js",
     "static/css/2.6b560088.chunk.css",
-    "static/js/2.4e68b669.chunk.js",
+    "static/js/2.bc40feb4.chunk.js",
     "static/css/main.78cf2d86.chunk.css",
-    "static/js/main.b8567279.chunk.js"
+    "static/js/main.b2c47ccd.chunk.js"
   ]
 }
