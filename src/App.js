@@ -16,6 +16,7 @@ import Careers from './pages/Careers';
 import FooterComponent from './components/footer/FooterComponent';
 
 const App = () => {
+  console.log('contents----------------------------   ', contents);
   return (
     <div className='App '>
       <>
