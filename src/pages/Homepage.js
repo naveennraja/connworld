@@ -14,12 +14,12 @@ const Homepage = (props) => {
       </>
       <h3 className='w-100 display-5 bold'>Core Value</h3>
       <div className='row'>
-        {Object.keys(coreValues).map((val) => (
+        {/* {Object.keys(coreValues).map((val) => (
           <CircleComponent
             key={val}
             text={val}
             classNames={coreValues[val]}></CircleComponent>
-        ))}
+        ))} */}
       </div>
     </>
   );
