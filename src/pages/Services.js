@@ -14,46 +14,48 @@ const Services = (props) => {
     contentTextServices,
     qualityService
   } = props.contents;
-
-  return (
-    <>
-      <h3>{title}</h3>
-      <div className='row'>
-        <div className='col'>
-          <ParagraphComponent text={contentText}></ParagraphComponent>
-        </div>
-      </div>
-
-      <div className='row solution-container'>
-        {Object.keys(cards).map((ele, idx) => (
-          <CardboardComponent
-            key={ele}
-            text={ele}
-            data={cards[ele]}
-            icon={cardsIcon[idx]}></CardboardComponent>
-        ))}
-      </div>
-      <div className='row'>
-        <div id='accordion' className='w-100'>
+  if (cards !== undefined) {
+    return (
+      <>
+        <h3>{title}</h3>
+        <div className='row'>
           <div className='col'>
-            <ParagraphComponent text={contentTextServices}></ParagraphComponent>
+            <ParagraphComponent text={contentText}></ParagraphComponent>
           </div>
-          {Object.keys(qualityService).map((ele, idx) => (
-            <AccordionCardComponent
-              key={`ele_${idx}`}
-              textHeading={ele}
-              textContent={qualityService[ele]}
-              idx={idx}></AccordionCardComponent>
+        </div>
+
+        <div className='row solution-container'>
+          {Object.keys(cards).map((ele, idx) => (
+            <CardboardComponent
+              key={ele}
+              text={ele}
+              data={cards[ele]}
+              icon={cardsIcon[idx]}></CardboardComponent>
           ))}
         </div>
-      </div>
-      <div className='row'>
-        <div className='col'>
-          <ParagraphComponent text={contentTextDesign}></ParagraphComponent>
+        <div className='row'>
+          <div id='accordion' className='w-100'>
+            <div className='col'>
+              <ParagraphComponent
+                text={contentTextServices}></ParagraphComponent>
+            </div>
+            {Object.keys(qualityService).map((ele, idx) => (
+              <AccordionCardComponent
+                key={`ele_${idx}`}
+                textHeading={ele}
+                textContent={qualityService[ele]}
+                idx={idx}></AccordionCardComponent>
+            ))}
+          </div>
         </div>
-      </div>
-    </>
-  );
+        <div className='row'>
+          <div className='col'>
+            <ParagraphComponent text={contentTextDesign}></ParagraphComponent>
+          </div>
+        </div>
+      </>
+    );
+  }
 };
 
 export default Services;
