@@ -25,26 +25,26 @@ const Services = (props) => {
       </div>
 
       <div className='row solution-container'>
-        {/* {Object.keys(cards).map((ele, idx) => (
+        {Object.keys(cards).map((ele, idx) => (
           <CardboardComponent
             key={ele}
             text={ele}
             data={cards[ele]}
             icon={cardsIcon[idx]}></CardboardComponent>
-        ))} */}
+        ))}
       </div>
       <div className='row'>
         <div id='accordion' className='w-100'>
           <div className='col'>
             <ParagraphComponent text={contentTextServices}></ParagraphComponent>
           </div>
-          {/* {Object.keys(qualityService).map((ele, idx) => (
+          {Object.keys(qualityService).map((ele, idx) => (
             <AccordionCardComponent
               key={`ele_${idx}`}
               textHeading={ele}
               textContent={qualityService[ele]}
               idx={idx}></AccordionCardComponent>
-          ))} */}
+          ))}
         </div>
       </div>
       <div className='row'>

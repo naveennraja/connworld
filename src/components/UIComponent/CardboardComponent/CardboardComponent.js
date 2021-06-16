@@ -12,9 +12,9 @@ const CardboardCompoonent = (props) => {
         </div>
         <div className='bottom-container container'>
           <ul>
-            {/* {data.map((contents) => (
+            {data.map((contents) => (
               <li key={contents}>{contents}</li>
-            ))} */}
+            ))}
           </ul>
         </div>
       </div>
