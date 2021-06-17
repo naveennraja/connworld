@@ -6,14 +6,14 @@
     "runtime-main.js": "/connworld/static/js/runtime-main.51681cf5.js",
     "runtime-main.js.map": "/connworld/static/js/runtime-main.51681cf5.js.map",
     "static/css/2.6b560088.chunk.css": "/connworld/static/css/2.6b560088.chunk.css",
-    "static/js/2.8ba20457.chunk.js": "/connworld/static/js/2.8ba20457.chunk.js",
-    "static/js/2.8ba20457.chunk.js.map": "/connworld/static/js/2.8ba20457.chunk.js.map",
+    "static/js/2.a7c3e96c.chunk.js": "/connworld/static/js/2.a7c3e96c.chunk.js",
+    "static/js/2.a7c3e96c.chunk.js.map": "/connworld/static/js/2.a7c3e96c.chunk.js.map",
     "static/js/3.a7f2fba2.chunk.js": "/connworld/static/js/3.a7f2fba2.chunk.js",
     "static/js/3.a7f2fba2.chunk.js.map": "/connworld/static/js/3.a7f2fba2.chunk.js.map",
     "index.html": "/connworld/index.html",
     "static/css/2.6b560088.chunk.css.map": "/connworld/static/css/2.6b560088.chunk.css.map",
     "static/css/main.78cf2d86.chunk.css.map": "/connworld/static/css/main.78cf2d86.chunk.css.map",
-    "static/js/2.8ba20457.chunk.js.LICENSE.txt": "/connworld/static/js/2.8ba20457.chunk.js.LICENSE.txt",
+    "static/js/2.a7c3e96c.chunk.js.LICENSE.txt": "/connworld/static/js/2.a7c3e96c.chunk.js.LICENSE.txt",
     "static/media/1.35d380ba.jpg": "/connworld/static/media/1.35d380ba.jpg",
     "static/media/2.622d6ffc.jpg": "/connworld/static/media/2.622d6ffc.jpg",
     "static/media/3.3212e932.jpg": "/connworld/static/media/3.3212e932.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.51681cf5.js",
     "static/css/2.6b560088.chunk.css",
-    "static/js/2.8ba20457.chunk.js",
+    "static/js/2.a7c3e96c.chunk.js",
     "static/css/main.78cf2d86.chunk.css",
     "static/js/main.37d9b8c7.chunk.js"
   ]
