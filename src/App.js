@@ -17,10 +17,9 @@ import FooterComponent from './components/footer/FooterComponent';
 
 const App = () => {
   const data_URL = '../content/content.json';
-  //const data_URL = 'https://run.mocky.io/v3/d9c6be74-e7c2-4248-80d6-34e19e93b13d';
   const contents = useFetch(data_URL);
-  console.log('Contents', contents);
-  if (contents !== null) {
+  if (contents !== null && contents !== undefined) {
+    console.log('Contents', contents);
     return (
       <div className='App '>
         <HashRouter basename='/'>
