@@ -16,7 +16,9 @@ import Careers from './pages/Careers';
 import FooterComponent from './components/footer/FooterComponent';
 
 const App = () => {
-  const data_URL = '../content/content.json';
+  //const data_URL = '../content/content.json';
+  const data_URL =
+    'https://run.mocky.io/v3/f02e612b-e895-42c0-a728-9ea91f2002fe';
   const contents = useFetch(data_URL);
   if (contents !== null && contents !== undefined) {
     console.log('Contents', contents);

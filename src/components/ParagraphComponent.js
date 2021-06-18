@@ -8,6 +8,7 @@ const ParagraphComponent = (props) => {
   //console.log('W', window, '\nDM', DOMPurify, '\nC', clean);
   return (
     <div className='text-justify text-black  py-4'>
+      <div dangerouslySetInnerHTML={{ __html: props.text }} />
       {/* {<div dangerouslySetInnerHTML={{ __html: clean }} />} */}
     </div>
   );
