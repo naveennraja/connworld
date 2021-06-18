@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/connworld/static/css/main.78cf2d86.chunk.css",
-    "main.js": "/connworld/static/js/main.73ade4d3.chunk.js",
-    "main.js.map": "/connworld/static/js/main.73ade4d3.chunk.js.map",
+    "main.js": "/connworld/static/js/main.5d9ae5af.chunk.js",
+    "main.js.map": "/connworld/static/js/main.5d9ae5af.chunk.js.map",
     "runtime-main.js": "/connworld/static/js/runtime-main.35d2e056.js",
     "runtime-main.js.map": "/connworld/static/js/runtime-main.35d2e056.js.map",
     "static/css/2.6b560088.chunk.css": "/connworld/static/css/2.6b560088.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.6b560088.chunk.css",
     "static/js/2.bfb37730.chunk.js",
     "static/css/main.78cf2d86.chunk.css",
-    "static/js/main.73ade4d3.chunk.js"
+    "static/js/main.5d9ae5af.chunk.js"
   ]
 }
